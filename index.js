@@ -22,7 +22,7 @@ app.use(cookieParser())
 app.use("/user",userRouter)
 app.use("/recipe",recipeRouter)
 app.get('/', (req, res) => {
-    res.send("<center><h1>Welcome to Recipe Management Application....</h1> <br/> <p>Getting All Api please click this link and open my git repository :</p><a href=  target=_blank>Click here</a></center>")
+    res.send("<center><h1>Welcome to Recipe Management Application....</h1> <br/> <p>Getting All Api please click this link and open my git repository :</p><a href=https://github.com/boradkrutil/Recipe_Management/tree/main/router  target=_blank>Click here</a></center>")
 })
 
 const port = process.env.PORT
